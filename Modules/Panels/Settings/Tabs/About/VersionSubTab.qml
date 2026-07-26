@@ -375,7 +375,7 @@ ColumnLayout {
 
     ColumnLayout {
       NHeader {
-        label: "Noctalia Shell"
+        label: "Horus Shell"
       }
 
       // Versions
@@ -386,7 +386,7 @@ ColumnLayout {
 
         // Installed Version (Shell)
         NText {
-          text: "Noctalia Shell:"
+          text: "Horus Shell:"
           color: Color.mOnSurfaceVariant
           Layout.alignment: Qt.AlignRight | Qt.AlignVCenter
         }
@@ -485,7 +485,7 @@ ColumnLayout {
         // Quickshell Version
         NText {
           visible: root.qsVersion !== ""
-          text: "Noctalia QS:"
+          text: "Horus QS:"
           color: Color.mOnSurfaceVariant
           Layout.alignment: Qt.AlignRight | Qt.AlignVCenter
         }
