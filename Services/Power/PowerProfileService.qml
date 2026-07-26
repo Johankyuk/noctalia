@@ -24,11 +24,11 @@ Singleton {
 
     switch (prof) {
     case PowerProfile.Performance:
-      return "Performance";
+      return "Rendimiento";
     case PowerProfile.Balanced:
-      return "Balanced";
+      return "Equilibrado";
     case PowerProfile.PowerSaver:
-      return "Power saver";
+      return "Ahorro de energía";
     default:
       return "Unknown";
     }
@@ -105,7 +105,7 @@ Singleton {
       if (profileName !== "Unknown") {
         ToastService.showNotice(I18n.tr("toast.power-profile.profile-name", {
                                           "profile": profileName
-                                        }), I18n.tr("toast.power-profile.changed"), profileName.toLowerCase().replace(" ", ""));
+                                        }), I18n.tr("toast.power-profile.changed"), root.getIcon());
       }
     }
   }
